@@ -29,9 +29,9 @@ void loop() {
 	
     for(size_t i = 0; i < bufSize; i++) {
 		buf[i] = i;
-	}
+    }
 	
-	Serial.println("Buffer created ! \r");
+    Serial.println("Buffer created ! \r");
     
     client.write(buf, bufSize);
     
